@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+#header {
+    position:-webkit-sticky;
+    position:sticky;
+    top:0px;
+    background-color: black;
+    color:#FFFF00;
+    height: 100px;
+}
+#header_heading {
+    float:left;
+    vertical-align: middle;
+    align-self: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 80px;
+    height: fit-content;
+    margin-top: 5px;
+}
+#header_buttons_container {
+    float:right;
+    justify-content:space-around;
+    width:fit-content;
+}
+.header_buttons {
+    background-color: transparent;
+    color:white;
+    font-size: 28px;
+    height:80px;
+    border:none;
+    color:#FFFF00;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header_buttons:hover {
+    text-decoration: underline;
+    font-size: 30px;
+    color:#15ff00;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#body_heading {
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size: 70px;
+}
+#introduction {
+    background-color: #ff4800;
+    height: 763px;
+    margin:0px;
+}
+body {
+    margin: 0;
+}
+#intro_description {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#men {
+    height:760px;
+    background-color: #80d0e4;
+    margin: 0px;
+}
+#intro_men_divide {
+    height: 3px;
+    color: black;
+    margin: 0px;
+    background-color: black;
+}
+#men_heading {
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size: 70px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.marquee-content {
+    display: flex;
+    animation: scrolling 15s linear infinite;
+}
+.marquee-content:hover {
+    animation-play-state: paused;
+}
+.marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+}
+.marquee-item img {
+    display: block;
+    width: 200px;
+    height: 200px;
+  /*   padding: 0 20px; */
+}
+@keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translatex(-144vw); }
+}
+#overlay_men {
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 200px;
+    margin-top: -200px;
+    visibility: hidden;
+}
+#men_women_divide {
+    height: 3px;
+    color: black;
+    margin: 0px;
+    background-color: black;
+}
+
+#women {
+    height:760px;
+    background-color: #ffa4ef;
+    margin: 0px;
+}
+
+#women_heading {
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size: 70px;
+}
+
+#overlay_women {
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 200px;
+    margin-top: -200px;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+#women_kids_divide {
+    height: 3px;
+    color: black;
+    margin: 0px;
+    background-color: black;
+}
+
+#kids {
+    height:760px;
+    background-color: rgb(90, 245, 123);
+    margin: 0px;
+}
+
+#kids_heading {
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size: 70px;
+}
+
+#overlay_kids {
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 200px;
+    margin-top: -200px;
+    visibility: hidden;
+}
